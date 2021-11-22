@@ -67,9 +67,10 @@ namespace PID_Control
             // 
             this.bt_connect.BackColor = System.Drawing.SystemColors.Control;
             this.bt_connect.ForeColor = System.Drawing.Color.Lime;
-            this.bt_connect.Location = new System.Drawing.Point(172, 43);
+            this.bt_connect.Location = new System.Drawing.Point(129, 35);
+            this.bt_connect.Margin = new System.Windows.Forms.Padding(2);
             this.bt_connect.Name = "bt_connect";
-            this.bt_connect.Size = new System.Drawing.Size(109, 40);
+            this.bt_connect.Size = new System.Drawing.Size(82, 32);
             this.bt_connect.TabIndex = 0;
             this.bt_connect.Text = "Connect";
             this.bt_connect.UseVisualStyleBackColor = false;
@@ -78,9 +79,10 @@ namespace PID_Control
             // cbb_Select_Com
             // 
             this.cbb_Select_Com.FormattingEnabled = true;
-            this.cbb_Select_Com.Location = new System.Drawing.Point(22, 43);
+            this.cbb_Select_Com.Location = new System.Drawing.Point(16, 35);
+            this.cbb_Select_Com.Margin = new System.Windows.Forms.Padding(2);
             this.cbb_Select_Com.Name = "cbb_Select_Com";
-            this.cbb_Select_Com.Size = new System.Drawing.Size(134, 24);
+            this.cbb_Select_Com.Size = new System.Drawing.Size(102, 21);
             this.cbb_Select_Com.TabIndex = 1;
             // 
             // groupBox1
@@ -89,9 +91,11 @@ namespace PID_Control
             this.groupBox1.Controls.Add(this.lb_status);
             this.groupBox1.Controls.Add(this.cbb_Select_Com);
             this.groupBox1.Controls.Add(this.bt_connect);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(9, 10);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(287, 123);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(215, 100);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "CONNECT";
@@ -99,9 +103,10 @@ namespace PID_Control
             // lb_status
             // 
             this.lb_status.AutoSize = true;
-            this.lb_status.Location = new System.Drawing.Point(22, 100);
+            this.lb_status.Location = new System.Drawing.Point(16, 81);
+            this.lb_status.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lb_status.Name = "lb_status";
-            this.lb_status.Size = new System.Drawing.Size(141, 17);
+            this.lb_status.Size = new System.Drawing.Size(110, 13);
             this.lb_status.TabIndex = 2;
             this.lb_status.Text = "STATUS: Disconnect";
             // 
@@ -112,18 +117,21 @@ namespace PID_Control
             this.groupBox2.Controls.Add(this.bt_reset);
             this.groupBox2.Controls.Add(this.bt_stop);
             this.groupBox2.Controls.Add(this.bt_start);
-            this.groupBox2.Location = new System.Drawing.Point(352, 12);
+            this.groupBox2.Location = new System.Drawing.Point(264, 10);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(376, 144);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(282, 117);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "SYSTEM CONTROL";
             // 
             // bt_clear
             // 
-            this.bt_clear.Location = new System.Drawing.Point(210, 100);
+            this.bt_clear.Location = new System.Drawing.Point(158, 81);
+            this.bt_clear.Margin = new System.Windows.Forms.Padding(2);
             this.bt_clear.Name = "bt_clear";
-            this.bt_clear.Size = new System.Drawing.Size(146, 29);
+            this.bt_clear.Size = new System.Drawing.Size(110, 24);
             this.bt_clear.TabIndex = 11;
             this.bt_clear.Text = "Clear data";
             this.bt_clear.UseVisualStyleBackColor = true;
@@ -131,9 +139,10 @@ namespace PID_Control
             // 
             // bt_send
             // 
-            this.bt_send.Location = new System.Drawing.Point(27, 100);
+            this.bt_send.Location = new System.Drawing.Point(20, 81);
+            this.bt_send.Margin = new System.Windows.Forms.Padding(2);
             this.bt_send.Name = "bt_send";
-            this.bt_send.Size = new System.Drawing.Size(146, 29);
+            this.bt_send.Size = new System.Drawing.Size(110, 24);
             this.bt_send.TabIndex = 10;
             this.bt_send.Text = "Send PID";
             this.bt_send.UseVisualStyleBackColor = true;
@@ -141,9 +150,10 @@ namespace PID_Control
             // 
             // bt_reset
             // 
-            this.bt_reset.Location = new System.Drawing.Point(281, 43);
+            this.bt_reset.Location = new System.Drawing.Point(211, 35);
+            this.bt_reset.Margin = new System.Windows.Forms.Padding(2);
             this.bt_reset.Name = "bt_reset";
-            this.bt_reset.Size = new System.Drawing.Size(75, 40);
+            this.bt_reset.Size = new System.Drawing.Size(56, 32);
             this.bt_reset.TabIndex = 2;
             this.bt_reset.Text = "RESET";
             this.bt_reset.UseVisualStyleBackColor = true;
@@ -151,9 +161,10 @@ namespace PID_Control
             // 
             // bt_stop
             // 
-            this.bt_stop.Location = new System.Drawing.Point(154, 40);
+            this.bt_stop.Location = new System.Drawing.Point(116, 32);
+            this.bt_stop.Margin = new System.Windows.Forms.Padding(2);
             this.bt_stop.Name = "bt_stop";
-            this.bt_stop.Size = new System.Drawing.Size(81, 40);
+            this.bt_stop.Size = new System.Drawing.Size(61, 32);
             this.bt_stop.TabIndex = 1;
             this.bt_stop.Text = "STOP";
             this.bt_stop.UseVisualStyleBackColor = true;
@@ -161,9 +172,10 @@ namespace PID_Control
             // 
             // bt_start
             // 
-            this.bt_start.Location = new System.Drawing.Point(27, 41);
+            this.bt_start.Location = new System.Drawing.Point(20, 33);
+            this.bt_start.Margin = new System.Windows.Forms.Padding(2);
             this.bt_start.Name = "bt_start";
-            this.bt_start.Size = new System.Drawing.Size(75, 39);
+            this.bt_start.Size = new System.Drawing.Size(56, 32);
             this.bt_start.TabIndex = 0;
             this.bt_start.Text = "START";
             this.bt_start.UseVisualStyleBackColor = true;
@@ -179,9 +191,11 @@ namespace PID_Control
             this.groupBox3.Controls.Add(this.txt_kd);
             this.groupBox3.Controls.Add(this.txt_ki);
             this.groupBox3.Controls.Add(this.txt_kp);
-            this.groupBox3.Location = new System.Drawing.Point(764, 23);
+            this.groupBox3.Location = new System.Drawing.Point(573, 19);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(350, 145);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Size = new System.Drawing.Size(262, 118);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "PID PARAMETERS";
@@ -189,72 +203,79 @@ namespace PID_Control
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(169, 76);
+            this.label4.Location = new System.Drawing.Point(127, 62);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 17);
+            this.label4.Size = new System.Drawing.Size(46, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Setpoint";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(174, 30);
+            this.label3.Location = new System.Drawing.Point(130, 24);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(20, 17);
+            this.label3.Size = new System.Drawing.Size(17, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "KI";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 76);
+            this.label2.Location = new System.Drawing.Point(5, 62);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 17);
+            this.label2.Size = new System.Drawing.Size(22, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "KD";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 30);
+            this.label1.Location = new System.Drawing.Point(5, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 17);
+            this.label1.Size = new System.Drawing.Size(21, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "KP";
             // 
             // txt_setpoint
             // 
-            this.txt_setpoint.Location = new System.Drawing.Point(244, 76);
+            this.txt_setpoint.Location = new System.Drawing.Point(183, 62);
+            this.txt_setpoint.Margin = new System.Windows.Forms.Padding(2);
             this.txt_setpoint.Name = "txt_setpoint";
-            this.txt_setpoint.Size = new System.Drawing.Size(100, 22);
+            this.txt_setpoint.Size = new System.Drawing.Size(76, 20);
             this.txt_setpoint.TabIndex = 3;
             // 
             // txt_kd
             // 
-            this.txt_kd.Location = new System.Drawing.Point(59, 76);
+            this.txt_kd.Location = new System.Drawing.Point(44, 62);
+            this.txt_kd.Margin = new System.Windows.Forms.Padding(2);
             this.txt_kd.Name = "txt_kd";
-            this.txt_kd.Size = new System.Drawing.Size(100, 22);
+            this.txt_kd.Size = new System.Drawing.Size(76, 20);
             this.txt_kd.TabIndex = 2;
             // 
             // txt_ki
             // 
-            this.txt_ki.Location = new System.Drawing.Point(244, 30);
+            this.txt_ki.Location = new System.Drawing.Point(183, 24);
+            this.txt_ki.Margin = new System.Windows.Forms.Padding(2);
             this.txt_ki.Name = "txt_ki";
-            this.txt_ki.Size = new System.Drawing.Size(100, 22);
+            this.txt_ki.Size = new System.Drawing.Size(76, 20);
             this.txt_ki.TabIndex = 1;
             // 
             // txt_kp
             // 
-            this.txt_kp.Location = new System.Drawing.Point(59, 30);
+            this.txt_kp.Location = new System.Drawing.Point(44, 24);
+            this.txt_kp.Margin = new System.Windows.Forms.Padding(2);
             this.txt_kp.Name = "txt_kp";
-            this.txt_kp.Size = new System.Drawing.Size(100, 22);
+            this.txt_kp.Size = new System.Drawing.Size(76, 20);
             this.txt_kp.TabIndex = 0;
             // 
             // zedGraphControl1
             // 
             this.zedGraphControl1.AllowDrop = true;
-            this.zedGraphControl1.Location = new System.Drawing.Point(13, 166);
-            this.zedGraphControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.zedGraphControl1.Location = new System.Drawing.Point(10, 135);
             this.zedGraphControl1.Name = "zedGraphControl1";
             this.zedGraphControl1.ScrollGrace = 0D;
             this.zedGraphControl1.ScrollMaxX = 0D;
@@ -263,9 +284,8 @@ namespace PID_Control
             this.zedGraphControl1.ScrollMinX = 0D;
             this.zedGraphControl1.ScrollMinY = 0D;
             this.zedGraphControl1.ScrollMinY2 = 0D;
-            this.zedGraphControl1.Size = new System.Drawing.Size(910, 452);
+            this.zedGraphControl1.Size = new System.Drawing.Size(682, 367);
             this.zedGraphControl1.TabIndex = 5;
-            this.zedGraphControl1.Load += new System.EventHandler(this.zedGraphControl1_Load);
             // 
             // COM
             // 
@@ -276,14 +296,17 @@ namespace PID_Control
             // timer1
             // 
             this.timer1.Enabled = true;
+            this.timer1.Interval = 30;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.txt_receive);
-            this.groupBox4.Location = new System.Drawing.Point(930, 174);
+            this.groupBox4.Location = new System.Drawing.Point(698, 141);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(228, 219);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Size = new System.Drawing.Size(171, 178);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Receive Data";
@@ -291,46 +314,49 @@ namespace PID_Control
             // txt_receive
             // 
             this.txt_receive.AllowDrop = true;
-            this.txt_receive.Location = new System.Drawing.Point(11, 34);
+            this.txt_receive.Location = new System.Drawing.Point(8, 28);
+            this.txt_receive.Margin = new System.Windows.Forms.Padding(2);
             this.txt_receive.Multiline = true;
             this.txt_receive.Name = "txt_receive";
             this.txt_receive.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt_receive.Size = new System.Drawing.Size(211, 179);
+            this.txt_receive.Size = new System.Drawing.Size(159, 146);
             this.txt_receive.TabIndex = 0;
-            this.txt_receive.TextChanged += new System.EventHandler(this.txt_receive_TextChanged);
             // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.txt_send);
-            this.groupBox5.Location = new System.Drawing.Point(930, 399);
+            this.groupBox5.Location = new System.Drawing.Point(698, 324);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(228, 219);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox5.Size = new System.Drawing.Size(171, 178);
             this.groupBox5.TabIndex = 7;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Send Data";
             // 
             // txt_send
             // 
-            this.txt_send.Location = new System.Drawing.Point(10, 21);
+            this.txt_send.Location = new System.Drawing.Point(8, 17);
+            this.txt_send.Margin = new System.Windows.Forms.Padding(2);
             this.txt_send.Multiline = true;
             this.txt_send.Name = "txt_send";
             this.txt_send.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt_send.Size = new System.Drawing.Size(212, 192);
+            this.txt_send.Size = new System.Drawing.Size(160, 157);
             this.txt_send.TabIndex = 0;
-            this.txt_send.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1170, 631);
+            this.ClientSize = new System.Drawing.Size(878, 513);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.zedGraphControl1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "PID CONTROL";
             this.Load += new System.EventHandler(this.Form1_Load);
